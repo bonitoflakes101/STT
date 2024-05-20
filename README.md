@@ -5,12 +5,12 @@ SETUP
   1.) In CLI, do this:
   
       pip install pvrecorder
-      pip install openai==0.28
+      pip install openai
 
       if this doesn't work then do:
 
       python -m pip install pvrecorder
-      python -m pip install openai==0.28 (hindi new version gamit, pero ito muna for the meantime kc it works)
+      python -m pip install openai(new version na gamit)
   
   2.) Create your own API key (ask harley, he will give u access). Then replace your own API key sa variable sa code
 
@@ -27,6 +27,6 @@ HOW DOES IT WORK?
 FUTURE IMPROVEMENTS?
 
   1.) openai 0.28 gamit ko which is NOT the new version, this uses the openai.Audio.transcribe function. Ito palang napagana ko. 
-      -  try to find new alternatives sa openai.Audio.transcribe, this requires you to install the newest openai sa CLI
+      -  try to find new alternatives sa openai.Audio.transcribe, this requires you to install the newest openai sa CLI (NVM THIS)
       
   2.) Sa user recording, instead na ENTER yung ipress to stop. Dapat ata sa button siya. Research abt it. 
