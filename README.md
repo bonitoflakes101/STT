@@ -3,6 +3,7 @@ Speech to Text using pvrecorder for recording audio and whisper AI for transcrib
 
 SETUP
   1.) In CLI, do this:
+  
       pip install pvrecorder
       pip install openai==0.28
 
