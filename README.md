@@ -10,7 +10,7 @@ SETUP
       if this doesn't work then do:
 
       python -m pip install pvrecorder
-      python -m pip install openai==0.28 (hindi new version gamit, paganahin ung new ver)
+      python -m pip install openai==0.28 (hindi new version gamit, pero ito muna for the meantime kc it works)
   
   2.) Create your own API key (ask harley, he will give u access). Then replace your own API key sa variable sa code
 
