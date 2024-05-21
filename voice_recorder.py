@@ -61,7 +61,7 @@ class WhisperTranscriber:
 
     def transcribe(self, audio_file_path, language='en'):
         with open(audio_file_path, 'rb') as audio_file:
-            response = openai.Audio.transcribe(
+            response = openai.audio.transcriptions.create(
                 model=self.model_id,
                 file=audio_file,
                 language=language
